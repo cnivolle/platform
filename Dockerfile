@@ -97,3 +97,6 @@ ENTRYPOINT /go/src/github.com/mattermost/platform/docker/docker-entry.sh
 
 # Ports
 EXPOSE 8080
+
+#CMD
+docker run --name mattermost-dev -d --publish 8065:8080 mattermost/platform:latest
