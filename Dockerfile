@@ -96,4 +96,4 @@ RUN chmod +x /go/src/github.com/mattermost/platform/docker/docker-entry.sh
 ENTRYPOINT /go/src/github.com/mattermost/platform/docker/docker-entry.sh
 
 # Ports
-EXPOSE 80
+EXPOSE 8080
